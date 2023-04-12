@@ -1,0 +1,188 @@
+body{
+  margin: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1, h2{
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
+
+h2{
+  color: black;
+  margin-left: 180px;
+}
+
+nav{
+  height:90px;
+  align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+#divAncoras{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+a:hover{
+  color:rgb(231, 169, 75);
+}
+
+header{
+  background-image: url("https://images.tcdn.com.br/img/img_prod/570534/1591709633_full2_(1).jpg");
+  background-size: cover;
+  height: 1000px;
+  background-position-x: center;
+}
+
+#lancamentos{
+  padding-top: 100px;
+  height: 600px;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+#container div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 450px;
+  background-color: white;
+  margin: 20px;
+}
+
+#container div:hover{
+  border: 5px solid rgb(231, 169, 75);
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#container div img{
+  width: 250px;
+}
+
+#abaCurva{
+  padding-top: 100px;
+  height: 1000px;
+}
+
+#abaCurva #foto{
+  background-image: url("https://cdn.dooca.store/946/files/bone-outlet.gif?v=1624451589&webp=0");
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#abaReta{
+  padding-top: 100px;
+  height: 1000px;
+  background-color: rgb(228, 228, 228);
+}
+
+#fotoAbaReta{
+  background-color: red;
+  background-image: url("https://gifs.eco.br/wp-content/uploads/2021/10/imagens-e-gifs-de-skate-15.gif");
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+#frete div{
+  background-color: red;
+  width: 300px;
+}
+
+#maisVendidos{
+  padding-top: 100px;
+  height: 700px;
+}
+
+footer{
+  padding-top: 100px;
+  height: 700px;
+  background-color: black;
+}
+
+#fotoFooter {
+  background-image: url("https://media.giphy.com/media/i0lZAPw40F212/giphy.gif");
+  width: 100%;
+  background-size: cover;
+  background-position: center
+}
+
+footer #containerFooter{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 1150px;
+  margin-left: 185px;
+}
+
+footer h2,footer p{
+  color: white;
+}
+
+footer img{
+  width: 50px;
+  cursor: pointer;
+}
+
+#face{
+  cursor: pointer;
+  width: 60px;
+  height:60px;
+}
+
+#insta{
+  height:40px;
+  width: 40px;
+}
+
+#logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer div{
+  width: 350px;
+  height: 200px;
+}
+@media screen and (max-width: 600px) {
+
+  
+}
+
